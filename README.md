@@ -18,7 +18,7 @@ DDPM4ISL is a framework designed to predict organelle fluorescence in label-free
 ### Example Notebooks
 - **TRAINING notebook**: 
 
-    This notebook demonstrates how to train the DDPM4ISL model using paired brightfield and organelle fluoresnce images. 
+    This notebook demonstrates how to train the DDPM4ISL model using paired brightfield and organelle fluoresence images. 
     
 - **INFERENCE notebook**:
 
