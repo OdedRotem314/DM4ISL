@@ -7,7 +7,6 @@ import tifffile
 import math
 import cv2 
 
-# sys.path.append('/home/odedrot/In_silico_labelling_BF')
 from generative.metrics import FIDMetric, MMDMetric, MultiScaleSSIMMetric, SSIMMetric
 from generative.networks.nets.diffusion_model_unet import DiffusionModelUNet # Adapted from https://github.com/huggingface/diffusers
 from generative.networks.schedulers.ddpm import DDPMScheduler
