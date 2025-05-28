@@ -30,7 +30,7 @@ DDPM4ISL is a framework designed to predict organelle fluorescence in label-free
 ### Data
 
 The full data of paired brightfield and fluorescence images can be downloaded from the allen intitute of cell science
-[ttps://open.quiltdata.com/b/allencell/packages/aics/label-free-imaging-collection/tree/latest/](ttps://open.quiltdata.com/b/allencell/packages/aics/label-free-imaging-collection/tree/latest/)
+[https://open.quiltdata.com/b/allencell/packages/aics/label-free-imaging-collection/tree/latest/](https://open.quiltdata.com/b/allencell/packages/aics/label-free-imaging-collection/tree/latest/)
 
 We provide several patches of Nuclear Envelope under data/NucEnv, allowing you to run the training, inference and analysis notebooks.
 
