@@ -62,12 +62,14 @@ We provide several patches of Nuclear Envelope under data/NucEnv, allowing you t
     %cd DDPM4ISL
     !pip install requirements.
 3. Download two models from hugging face https://huggingface.co/OdedRot/DDPM4ISL/tree/main
+   
    Add CLS.pth to saved_models/CLS
+   
    Add NucEnv.pth to saved_models/NucEnv
-4. For every notebook you use, update the "main_path" directory path.
-5. To train a new model use the TRAINING notebook.
-6. To run inference on a trained model use the INFERENCE notebook.
-7. To evaluate predictions on a trained model use the RESULTS_ANALYSIS notebook.
+5. For every notebook you use, update the "main_path" directory path.
+6. To train a new model use the TRAINING notebook.
+7. To run inference on a trained model use the INFERENCE notebook.
+8. To evaluate predictions on a trained model use the RESULTS_ANALYSIS notebook.
 
 ## Acknowledgement
 Based on the MONAI framework found here:
