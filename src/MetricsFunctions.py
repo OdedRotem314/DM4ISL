@@ -20,7 +20,7 @@ from generative.metrics import MultiScaleSSIMMetric
 
 # import sys
 # sys.path.append(".")
-# main_path = "/home/odedrot/In_silico_labelling_BF/Github/" ## change to main directory of github
+# main_path = "/.../" ## change to main directory of github
 # sys.path.append(main_path+'src')
 
 #########################################################
