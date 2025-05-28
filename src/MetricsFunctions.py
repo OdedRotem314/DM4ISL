@@ -38,7 +38,7 @@ def lpips(main_path, imgs1, imgs2):
     no_max_pool=False,
     widen_factor=1.0)
 
-    CLS_model.load_state_dict(torch.load(main_path + "saved_models/CLS/epoch_9_loss_val_0.0234_acc_0.9914_f1_0.9894.pth"))  
+    CLS_model.load_state_dict(torch.load(main_path + "saved_models/CLS/DDPM4ISL_CLS.pth"))  
     CLS_model.to(device)
     CLS_model.eval()
 
