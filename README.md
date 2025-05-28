@@ -33,17 +33,20 @@ The full data of paired brightfield and fluorescence images can be downloaded fr
 [ttps://open.quiltdata.com/b/allencell/packages/aics/label-free-imaging-collection/tree/latest/](ttps://open.quiltdata.com/b/allencell/packages/aics/label-free-imaging-collection/tree/latest/)
 
 We provide several patches of Nuclear Envelope under data/NucEnv, allowing you to run the training, inference and analysis notebooks.
-#**The data directory includes**:
+
+**The data directory includes**:
 - BF - brightfield patches
 - GT - fluorescence patches use for ground truth
-#**The INFERENCE notebook will save data into the following folders:**
+
+**The INFERENCE notebook will save data into the following folders:**
 - FL_pred - predictions of the DDPM final output
 - FLavg_pred - predictions of the DDPM4ISL average
 - FLavg_std - standard deviation images using the intermidiate timesteps
 - FLavg_std_seg - binary image of FLavg_std spotting erroneuos locations
 - FLavg_std_seeds - standard deviation images using the intermidiate timesteps initiaed from multiple seeds
 - FLavg_std_seg_seeds - binary image of FLavg_std_seeds spotting erroneuos locations
-#**To run the RESULTS_ANALYSIS notebook we also provide samples from Unet and GAN predictions:**
+
+**To run the RESULTS_ANALYSIS notebook we also provide samples from Unet and GAN predictions:**
 - Unet
 - GAN
 
