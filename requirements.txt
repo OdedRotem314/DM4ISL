@@ -4,7 +4,7 @@ scipy==1.13
 scikit-image==0.22
 scikit-learn==1.4
 tifffile==2024.8.30
-opencv-python==4.9
+opencv-python==4.11.0.86
 torch==2.2.0
 torchvision==0.17
 requests==2.31
