@@ -60,7 +60,7 @@ We provide several patches of Nuclear Envelope under data/NucEnv, allowing you t
 2. Install the required dependencies:
     ```bash
     %cd DDPM4ISL
-    !pip install requirements.
+    !pip install -r requirements.
 3. Download two models from hugging face https://huggingface.co/OdedRot/DDPM4ISL/tree/main
    
    Add CLS.pth to saved_models/CLS
