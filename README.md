@@ -67,7 +67,7 @@ We provide several patches of Nuclear Envelope under data/NucEnv, allowing you t
    
    Add NucEnv.pth to saved_models/NucEnv
 5. For every notebook you use, update the "main_path" directory path.
-6. To train a new model use the TRAINING notebook.
+6. To train a new model use the TRAIN notebook.
 7. To run inference on a trained model use the INFERENCE notebook.
 8. To evaluate predictions on a trained model use the RESULTS_ANALYSIS notebook.
 
