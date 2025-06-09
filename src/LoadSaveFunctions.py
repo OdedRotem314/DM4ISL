@@ -4,7 +4,7 @@ import torch
 
 from generative.networks.nets.diffusion_model_unet import DiffusionModelUNet
 from generative.networks.schedulers.ddpm import DDPMScheduler
-from ProcessingFunctions import minmax_norm
+from src.ProcessingFunctions import minmax_norm
 
 def load_patches(main_path, organelle, imgs_name, Nimgs):
     imgs = []
