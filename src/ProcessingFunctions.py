@@ -9,7 +9,7 @@ import tifffile
 import cv2 
 import random
 
-from DisplayFunctions import volumetric2sequence
+from src.DisplayFunctions import volumetric2sequence
 
 
 def run_filter(img3D, filter_kernel = 5, sigma = 50, filter_type='median'): # should be 0-255 uint8
