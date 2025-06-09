@@ -10,7 +10,7 @@ from glrlm import GLRLM
 import torch
 # import torch.nn.functional as F
 from torch_intermediate_layer_getter import IntermediateLayerGetter as MidGetter
-import resnet
+from src import resnet
 import numpy as np
 import matplotlib.pyplot as plt
 import tifffile
