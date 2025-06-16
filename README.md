@@ -57,7 +57,7 @@ We provide several patches of Nuclear Envelope under data/NucEnv, allowing you t
    ```bash
    git clone https://github.com/zaritskylab/DDPM4ISL
 
-2. Install the required dependencies:
+2. Install the required dependencies, use python==3.9:
     ```bash
     %cd DDPM4ISL
     !pip install -r requirements.
