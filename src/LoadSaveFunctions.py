@@ -22,7 +22,7 @@ def save_patches(main_path, organelle, images_to_save, images_folder):
         image_to_save = img_uint8[i][0]
         image_to_save = image_to_save.transpose(2,0,1)
         print(image_to_save.shape, image_to_save.dtype, image_to_save.min(), image_to_save.max())
-        tifffile.imwrite(main_path + 'test_patches/' + organelle +   '/' + images_folder + '/' + str(i) + '.tiff', image_to_save)
+        tifffile.imwrite(main_path + 'data/' + organelle +   '/' + images_folder + '/' + str(i) + '.tiff', image_to_save)
         
         
 class LoadModel:
