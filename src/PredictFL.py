@@ -13,10 +13,10 @@ from generative.networks.schedulers.ddpm import DDPMScheduler
 from generative.networks.schedulers import DDIMScheduler
 from torch.cuda.amp import GradScaler, autocast
 
-from ProcessingFunctions import segmentation_pipeline, minmax_norm
-from Params import SegmentationParams
-from DisplayFunctions import display_images, volumetric2sequence
-from LoadSaveFunctions import load_patches, LoadModel, save_patches
+from src.ProcessingFunctions import segmentation_pipeline, minmax_norm
+from src.Params import SegmentationParams
+from src.DisplayFunctions import display_images, volumetric2sequence
+from src.LoadSaveFunctions import load_patches, LoadModel, save_patches
 
 def predict_FL(DiffModel, BFinput, t_low, t_high, seed=10):
     device = torch.device("cuda") 
