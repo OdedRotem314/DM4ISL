@@ -1,4 +1,4 @@
-# DM4ISL (Denoising diffusion probabalistic model forIn silico labeling)
+# DM4ISL (Denoising diffusion probabalistic model for in silico labeling)
 
 
 ## Paper Abstract
