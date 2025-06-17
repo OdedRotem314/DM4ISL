@@ -1,4 +1,4 @@
-# DDPM4ISL (Denoising diffusion probabalistic model forIn silico labeling)
+# DM4ISL (Denoising diffusion probabalistic model forIn silico labeling)
 
 
 ## Paper Abstract
@@ -10,17 +10,17 @@ Fluorescence microscopy is a useful tool for cell and subcellular quantitative a
 
 
 ### Overview
-DDPM4ISL is a framework designed to predict organelle fluorescence in label-free microscopy images based on diffusion models and a inference optimized mechanism for improved results. This repository includes the source code for training, inference, and results analysis.
+DM4ISL is a framework designed to predict organelle fluorescence in label-free microscopy images based on diffusion models and a inference optimized mechanism for improved results. This repository includes the source code for training, inference, and results analysis.
 
 
 ### Example Notebooks
 - **TRAINING notebook**: 
 
-    This notebook demonstrates how to train the DDPM4ISL model using paired brightfield and organelle fluoresence images. 
+    This notebook demonstrates how to train the DM4ISL model using paired brightfield and organelle fluoresence images. 
     
 - **INFERENCE notebook**:
 
-    This notebook demonstrates how to predict a flouresence image using a trained DDPM4ISL model and brightfield input images. 
+    This notebook demonstrates how to predict a flouresence image using a trained DM4ISL model and brightfield input images. 
 
 - **RESULTS_ANALYSIS**:
 
@@ -39,7 +39,7 @@ We provide several patches of Nuclear Envelope under data/NucEnv, allowing you t
 
 **The INFERENCE notebook will save data into the following folders:**
 - FL_pred - predictions of the DDPM final output
-- FLavg_pred - predictions of the DDPM4ISL average
+- FLavg_pred - predictions of the DM4ISL average
 - FLavg_std - standard deviation images using the intermidiate timesteps
 - FLavg_std_seg - binary image of FLavg_std spotting erroneuos locations
 - FLavg_std_seeds - standard deviation images using the intermidiate timesteps initiaed from multiple seeds
@@ -53,13 +53,14 @@ We provide several patches of Nuclear Envelope under data/NucEnv, allowing you t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zaritskylab/DDPM4ISL
+   git clone https://github.com/zaritskylab/DM4ISL
 
 2. Use python==3.9 and install the required dependencies:
     ```bash
-    %cd DDPM4ISL
-    !pip install -r requirements.
-3. Download two models from hugging face https://huggingface.co/OdedRot/DDPM4ISL/tree/main
+    %cd DM4ISL
+    pip install -r requirements.
+    pip install notebook 
+3. Download two models from hugging face https://huggingface.co/OdedRot/DM4ISL/tree/main
    
    Add CLS.pth to saved_models/CLS
    
