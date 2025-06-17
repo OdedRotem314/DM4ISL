@@ -1,4 +1,4 @@
-# DM4ISL (Siffusion model for in silico labeling)
+# DM4ISL (Diffusion model for in silico labeling)
 
 
 ## Paper Abstract
